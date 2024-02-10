@@ -1,0 +1,208 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-HomeHeader {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+p{
+  color:black;
+}
+.ant-layout-header {
+  background-color: #eeeeee;
+}
+
+.ant-menu {
+  background-color: #eeeeee;
+}
+
+/*
+below is the css for footer component
+*/
+
+.ant-layout-footer{
+  background-color:	#0000AA;
+}
+
+.ant-layout-footer p{
+  color:white;
+}
+
+.ant-layout-footer h5{
+  color:white;
+}
+
+/*
+css for homeContent component
+*/
+
+.homeBackground{
+  background-image: url('./source/accounting-alone-application-938965.jpg');
+  background-size: cover;
+  height: 35em;
+  text-align: center;
+}
+
+.homeBackground p{
+  font-size: 150%;
+}
+
+.homeBackground h1{
+  font-size: 360%;
+}
+
+.serviceCard_1{
+  height:25em;
+  background-image: url('./source/serviceCard_1.jpg');
+  background-size:cover;
+  color: white;
+}
+
+.serviceCard_1 h3{
+  color:white;
+  font-size:175%;
+}
+
+.serviceCard_2{
+  height:25em;
+  background-image: url('./source/serviceCard_2.jpg');
+  background-size:cover;
+  color:white;
+}
+
+.serviceCard_2 h3{
+  color:white;
+  font-size:175%;
+}
+
+.serviceCard_3{
+  height:25em;
+  background-image: url('./source/serviceCard_3.jpg');
+  background-size:cover;
+  color:white;
+}
+
+.serviceCard_3 h3{
+  color:white;
+  font-size:175%;
+}
+
+/*
+css for loanContent component
+*/
+.IconTable{
+  font-size:200%;
+  text-align: center;
+  padding-top:1em;
+  padding-bottom: 1em;
+}
+/*
+css for loan calculator component
+*/
+.LoanCalculator{
+  margin-top:1em;
+  margin-bottom:1em;
+  padding:1em;
+  background-color:	#f0f0f0;
+  box-shadow: 0.5em 0.5em 0.25em #888888;
+}
+
+.CalculateResult{
+  margin-top:1em;
+  margin-bottom:1em;
+  background-color: #f0f0f0;
+  box-shadow:0.5em 0.5em 0.25em #888888;
+}
+
+.rateTable{
+  margin:1em;
+  padding:1em;
+  box-shadow:#888888 0em 0em 0.5em;
+}
+/*
+below is the css for FAQs component
+*/
+
+.collapseHolder{
+  margin-top:2em;
+  margin-bottom:4em;
+}
+
+.collapseHolder h2{
+  color:red;
+}
+
+/*
+below is the css for Login component
+*/
+.LoginRow{
+  background-image: url('./source/abstract-attractive-backdrop-988872.jpg');
+  background-size:cover;
+}
+
+.LoginForm{
+  margin:5em;
+}
+
+/*
+below is the css for Apllication component
+*/
+.apllicationForm{
+  background-image: url('./source/login-background.jpg');
+  background-size:cover;
+  padding: 2em;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header{
+  background-color:#ececff;
+}
+
+/*
+this is css for LoanContent component
+*/
+.loanContentHeader{
+  text-align: center;
+  font-size: 150%;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.ant-list-header{
+  background-color: #C0C0C0;
+}
+
+/*
+css for storeLocation component
+*/
+.locationSelector{
+  text-align:center;
+  margin:0.5em;
+}
+
+.storeInfo{
+  background-color: #f0f0f0;
+  margin:0.5em;
+  box-shadow:#888888 0em 0em 0.5em;
+}
